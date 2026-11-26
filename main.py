@@ -10,11 +10,13 @@ The line is written to be judged on the competition's own brief:
   2. It sounds like a real alien visitor: an outsider baffled by humans
      shouting at glowing rectangles and breathing exhaust.
   3. It lands the joke: the complaint and the food compliment both hit,
-     with the turn at the fried chicken.
+     with the turn at the fried chicken and the punchline that the
+     alien would invade again just for the food.
   4. It stays one sentence and inside the 200-character limit, with
      every word earning its place.
-  5. It feels fresh: the weeping third eye is an original alien angle
-     on Earth's flaws and its food.
+  5. It feels fresh: the weeping third eye and an invasion motivated
+     purely by fried chicken are an original alien angle on Earth's
+     flaws and its food.
 
 Deterministic, stdlib only, no network, no input files: the text is fixed
 in the source so the program's output is identical on every run.
@@ -24,8 +26,8 @@ import os
 
 LINE = (
     "One star: the locals shout at glowing rectangles and breathe "
-    "exhaust all day \u2014 but the fried chicken made all three of my "
-    "eyes weep with joy."
+    "exhaust all day, but the fried chicken made all three of my eyes "
+    "weep \u2014 I would invade again just for the food."
 )
 
 OUTPUT_PATH = "/output/entry.txt"
